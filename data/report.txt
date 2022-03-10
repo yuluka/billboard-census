@@ -1,0 +1,34 @@
+===========================
+DANGEROUS BILLBOARD REPORT
+===========================
+The dangerous billboard are:
+1. Billboard <Vestibulum Mauris PC> with area <467337.0>
+2. Billboard <Nulla Eget Metus Consulting> with area <468600.0>
+3. Billboard <Blandit Enim Consequat Consulting> with area <200220.0>
+4. Billboard <Egestas LLC> with area <267132.0>
+5. Billboard <Nam Nulla Magna Ltd> with area <206112.0>
+6. Billboard <Mauris Ut Consulting> with area <408918.0>
+7. Billboard <Malesuada Institute> with area <440112.0>
+8. Billboard <Vivamus LLC> with area <233280.0>
+9. Billboard <Tellus Institute> with area <317186.0>
+10. Billboard <Luctus Sit Foundation> with area <555807.0>
+11. Billboard <Gravida Limited> with area <208500.0>
+12. Billboard <Vulputate Lacus Cras Inc.> with area <419120.0>
+13. Billboard <Accumsan Neque Et Industries> with area <219791.0>
+14. Billboard <Ornare Tortor At Corp.> with area <325984.0>
+15. Billboard <Nec Urna Consulting> with area <374292.0>
+16. Billboard <Arcu Eu LLC> with area <241103.0>
+17. Billboard <Lobortis Tellus Incorporated> with area <210680.0>
+18. Billboard <Ut Consulting> with area <474328.0>
+19. Billboard <Donec Institute> with area <390903.0>
+20. Billboard <Mattis Corporation> with area <345345.0>
+21. Billboard <Consectetuer Corporation> with area <204240.0>
+22. Billboard <Sed Hendrerit LLC> with area <235415.0>
+23. Billboard <Nunc Sed Libero Foundation> with area <395120.0>
+24. Billboard <Dapibus LLP> with area <465105.0>
+25. Billboard <Gravida Praesent LLC> with area <359047.0>
+26. Billboard <Sagittis Semper Nam Ltd> with area <379760.0>
+27. Billboard <Eu Nibh Limited> with area <256095.0>
+28. Billboard <Vestibulum Mauris PC> with area <467337.0>
+29. Billboard <Yuluka S.A> with area <2.0E7>
+
