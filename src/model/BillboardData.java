@@ -100,6 +100,8 @@ public class BillboardData implements Serializable {
 					billboards.get(i).isInUse() + "	" + billboards.get(i).getBrand() + "\n";
 		}
 		
+		info += "Total: " + billboards.size();
+		
 		return info;
 	}
 	
