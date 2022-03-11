@@ -1,5 +1,6 @@
 package main;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -57,17 +58,20 @@ public class Main {
 		}
 	}
 	
-	public static void importData() {
+	public static void importData() throws IOException {
 		System.out.println("\n----- Importar datos -----");
 		
 		try {
-			data.loadDatos1();
-			data.loadDatos2();
+			System.out.println("\nIngresa el path absoluto del archivo que quieres importar:");
+			String path = in.nextLine();
+			
+			data.loadDatos(path);
 			
 			System.out.println("\nDatos importados correctamente.");
 			menu();
-		} catch (Exception e) {
-			e.printStackTrace();
+		} catch (FileNotFoundException e) {
+			System.out.println("\nNo se ha encontrado el archivo. Intenta nuevamente.");
+			menu();
 		}
 	}
 	

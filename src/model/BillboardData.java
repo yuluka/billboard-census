@@ -58,28 +58,8 @@ public class BillboardData implements Serializable {
 		}
 	}
 	
-	public void loadDatos1() throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("D:\\WORKSPACE\\billboard-census\\data\\Datos1.csv"));
-		String line = br.readLine();
-		
-		boolean firstLine = true;
-		
-		while(line != null) {
-			if(!firstLine) {
-				String[] parts = line.split("\\|");
-				String billboardInfo = parts[0] + "++" + parts[1] + "++" + parts[2] + "++" + parts[3];
-				
-				addBillboard(billboardInfo);
-			}
-			line = br.readLine();
-			firstLine = false;
-		}
-		
-		br.close();
-	}
-	
-	public void loadDatos2() throws IOException {
-		BufferedReader br = new BufferedReader(new FileReader("D:\\WORKSPACE\\billboard-census\\data\\Datos2.csv"));
+	public void loadDatos(String path) throws IOException {
+		BufferedReader br = new BufferedReader(new FileReader(path));
 		String line = br.readLine();
 		
 		boolean firstLine = true;
